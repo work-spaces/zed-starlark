@@ -43,6 +43,16 @@ impl zed::Extension for StarlarkExtension {
                     env: Default::default(),
                 })
             }
+            "spaces-lsp" => {
+                let path = worktree.which("spaces").ok_or_else(|| {
+                    "spaces must be installed. The LSP is part of the spaces binary".to_string()
+                })?;
+                Ok(zed::Command {
+                    command: path,
+                    args: vec!["run-lsp".to_string()],
+                    env: Default::default(),
+                })
+            }
             "tilt" => {
                 let path = worktree.which("tilt").ok_or_else(|| {
                     "`tilt` must be installed. The LSP is bundled with the tilt cli.".to_string()

@@ -16,6 +16,11 @@ name = "Buck2 LSP"
 language = "Starlark"
 languages = ["Starlark"]
 
+[language_servers.spaces-lsp]
+name = "Spaces LSP"
+language = "Starlark"
+languages = ["Starlark"]
+
 [language_servers.tilt]
 name = "Tilt LSP"
 language = "Starlark"
