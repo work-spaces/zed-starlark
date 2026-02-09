@@ -13,4 +13,4 @@ languages = ["Starlark"]
 
 [grammars.starlark]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-starlark"
-commit = "a453dbf3ba433db0e5ec621a38a7e59d72e4dc69"
+commit = "b31a616aac5d05f927f3f9dd809789db7805b632"
