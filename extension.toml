@@ -1,9 +1,9 @@
 id = "starlark"
-name = "Starlark"
+name = "Spaces Starlark"
 description = "Starlark support"
 version = "0.3.0"
 schema_version = 1
-authors = ["Ezekiel Warren <ezekiel@seaube.com>"]
+authors = ["Ezekiel Warren <ezekiel@seaube.com>", "Tyler Gilbert (spaces)"]
 repository = "https://github.com/work-spaces/zed-starlark"
 
 [language_servers.spaces-lsp]
@@ -13,4 +13,4 @@ languages = ["Starlark"]
 
 [grammars.starlark]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-starlark"
-commit = "b31a616aac5d05f927f3f9dd809789db7805b632"
+commit = "v1.3.0"
